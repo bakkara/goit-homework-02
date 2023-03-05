@@ -12,7 +12,9 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--color-slate)
+    color: var(--color-slate);
+    font-size: 16px;  
+    line-height: 1.5;
 }
 .link {
     text-decoration: none;
@@ -97,8 +99,6 @@ body {
 
 
 .contact {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -132,7 +132,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -156,11 +155,10 @@ body {
 }
 
 .footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-cornflower);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-cornflower);
 }
 
 /*---------Portfolio---------- !*/
